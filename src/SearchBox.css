@@ -1,0 +1,61 @@
+/*.SearchBox {
+    text-align:center;
+   
+ 
+}*/
+
+/* SearchBox.css */
+
+/* Container for the search box */
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* Form elements styling */
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling for TextField component */
+  .MuiTextField-root {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  /* Styling for Button */
+  .MuiButton-contained {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .MuiButton-contained:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Error message styling */
+  p {
+    font-size: 14px;
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }
+  

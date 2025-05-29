@@ -1,0 +1,44 @@
+/* WeatherApp.css */
+/* *{
+  background-color: aquamarine;
+} */
+
+  /* Header styling */
+  h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+ 
+  }
+  
+  /* Styling for the author's name in italics */
+  i {
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  /* InfoBox and SearchBox layout */
+  .InfoBox, .SearchBox {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Container to ensure proper spacing around InfoBox */
+  .InfoBox {
+    margin-top: 0px;
+  }
+  
+  /* Optional: Add a responsive background color change */
+  @media (max-width: 768px) {
+    div {
+      padding: 20px;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  

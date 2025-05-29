@@ -1,0 +1,82 @@
+/*.InfoBox {
+    text-align: center;
+    align-items: center;
+    color: aqua;
+    
+}
+*/
+
+/* InfoBox.css */
+
+/* Card wrapper */
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  /* InfoBox container */
+  .InfoBox {
+    width: 100%;
+    max-width: 345px;
+    margin: 0 auto;
+  }
+  
+  /* Card styles */
+  .MuiCard-root {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .MuiCard-root:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Card Media */
+  .MuiCardMedia-root {
+    border-radius: 12px 12px 0 0;
+    object-fit: cover;
+  }
+  
+  /* Typography styles */
+  .MuiTypography-root {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Title styling */
+  .MuiTypography-h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Body text */
+  .MuiTypography-body2 {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #7f8c8d;
+  }
+  
+  .MuiTypography-body2 p {
+    margin: 5px 0;
+  }
+  
+  /* Adjustments for the p tags */
+  .MuiTypography-body2 p i {
+    font-style: italic;
+    color: #3498db;
+  }
+  
+  /* Optional: Add a background to card */
+  .MuiCardContent-root {
+    background-color: #f5f5f5;
+    border-radius: 0 0 12px 12px;
+    padding: 16px;
+  }
+  
